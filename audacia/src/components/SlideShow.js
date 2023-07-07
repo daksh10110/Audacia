@@ -10,7 +10,7 @@ const SlideShow = () => {
     {
       key: 0,
       content: (
-        <div>
+        <div style={{ marginTop: "10vh" }}>
           <h2>Welcome to the Slide Show</h2>
           <p>This is the introduction slide.</p>
         </div>
@@ -19,7 +19,7 @@ const SlideShow = () => {
     {
       key: 1,
       content: (
-        <div>
+        <div style={{ marginTop: "10vh" }}>
           <h2>Registration</h2>
           {/* Include your registration form or content here */}
           <form>
